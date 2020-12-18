@@ -1,0 +1,68 @@
+Question 1 (Contact Information)
+Write a program that displays the following information
+- Your full name
+- Your email
+- Your phone number
+- Your address with state, city, zip code and country
+
+Question2 (Revenue Forecast)
+A university has determined that its annual profit is typically 38% of total student tuition. Write a program that asks the user to enter the projected annual tuition made from enrollment, then displays the profit that will be made from that amount.
+
+Question 3 (Weight Conversion)
+You have a client who grew up in a country that is used to the British system of measurement e.g Kilometres(km) for miles, Kilograms(kg) for pounds(lbs), litres for gallons, celsius for fahrenheit,etc. Your client recently moved to the United States and he is just beginning to adjust to a new system of measurement. He wants a program that can easily convert kg to lbs. Given that 0.453592kg makes 1 lb, write a program that asks users for a value in kg and then converts it to lbs.
+
+Question 4 (Temperature Converter)
+Your client is so pleased with the weight conversion program you developed for him and now he is asking for more. He is so used to the celsius temperature scale, now he wants a program that will convert temperature in fahrenheit to celsius so he can easily relate with the weather forecast in the United States. e.g He can not really tell if a temperature of 60 degree fahrenheit is cold or warm but he can tell that a temperature of 15 degree celsius is cold. Your program should ask for temperature in fahrenheit and convert it to celsuis. The formular for converting fahrenheit to celsius is (F − 32) × 5/9.
+
+Question 5 (Store Checkout)
+A store contacted you to write a program that calculates the total price of items purchased by customers. Due to the nature of the items sold in the store, it is certain that customers will purchase 3 items any time they visit the store. Your program should ask for the price of each item, calculate the sales tax (4%) and the total amount due.
+
+
+Question 6 (Trip Estimator)
+You and your family are planning a vacation to one of three tourist attractions you have listed. You do not want your mileage to go above a specific threshold and and you want to find the mileage you could use if driving to any of the three locations assuming there are no delays and going at the speed of 70miles/hr. Write a program that asks for the travel time to the three tourist attractions and displays the following;
+- The distance the car will travel to the first tourist attraction 
+- The distance the car will travel to the second tourist attraction
+- The distance the car will travel to the third  tourist attraction
+
+Question 7 (Payroll Deduction)
+You recently go hired as a programmer and one of the tasks you were given as part of your onboarding process is to calculate the net pay of a salaried employee.  Your program should ask a user for the gross pay and should consider the deductions below and display their values before displaying the net pay.
+- Federal Tax - 12%
+- State Tax - 4%
+- Retirement Contribution - 6%
+
+Question 8 (Sales, Discount, and Total)
+A store is giving 35% discount on all purchases. Write a program that asks a user to enter the  price of items purchased, the percentage of the discount applied and the total amount to be paid by the customer assume a tax of 7% is applied after discount
+
+Question 9 (Cookie Sharing)
+Some cookies is to be shared among three people in a given percentage. Write a program that will ask for the number of cookies and the percentages to be given to the first, second and third person and then displays the number of cookies each person gets.
+
+Question 10 (New Recipe)
+Your are learning a new recipe for a meal called Jollof rice that your Nigerian friend is teaching you. 
+A Jollof Rice recipe uses the following major Ingredients;
+	- 2 cups of rice
+	- 8 cups of water
+	- 0.5 cup of oil
+	- 1 cup of chicken broth
+This is the recipe for making 5 plates of Jollof Rice. Write a program that asks the user how many plates of Jollof rice to make and then displays the cups of rice, water, oil, and chicken broth needed.
+
+Extra Challenge 
+Question 11 (Stock Transaction Program)
+Some businesses (especially the ones that make WFH easy for people) are thriving in the COVID-19 pandemic and as a result, a lot of people are investing into their stock.
+
+Adisa purchased some stock from XYZ communication company. Find the details of the purchase below;
+- The number of shares that Adisa purchase was 2,800.
+- When Adisa purchased the stock, he paid $23.25 per share.
+- Adisa paid his stockbroker a commission that amounted to 4% of the amount he paid for the stock
+
+Two weeks later, Adisa sold the stock. Here are the details of the sale:
+- The number of shares that he sold was 2,800.
+- He sold the stock for $27.50 per share.
+- He paid his stockbroker another commission that amounted to 4% of the amount he received for the stock
+
+Write a program that displays the following information
+
+- The amount of money Adisa paid for the stock.
+- The amount of commission Adisa paid his broker when he bought the stock.
+- The amount for which Adisa sold the stock.
+- The amount of commission Adisa paid his broker when he sold the stock.
+- Display the amount of money that Adisa had left when he sold the stock and paid his broker (both times). 
