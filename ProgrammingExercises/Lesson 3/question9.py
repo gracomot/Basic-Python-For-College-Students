@@ -1,26 +1,28 @@
-# A Software company sells a package that retails for $99.
-# Quantity discounts are given according to the following table:
-#		Quantity 		Discount
-#		10-19			10%
-#		20-49			20%
-#		50-99			30%
-#		100 or more		40%
-# Write a program that asks the user to enter the number of packages purchased.
-# The program should then display the amount of the discount(if any)
-# and the total amount of the purchase after discount
+# Question 9 (Coins to Bill)
+# You were consulted to write a coin to bill conversion program for a coin
+# machine. Your program should ask for the number of quarters, dimes, nickels and pennies and should display the dollar and cent amount the user gets. Use the information below for the conversion
+#	1 quarter - 25cents
+#	1 dime - 10cents
+#       1 nickels - 5cents
+#       1 penny - 1 cent
+#   100 cents - 1 dollar
+# For example, 20 quarters, 8 dimes, 16 nickels and 5 penny should give $6.65
 
-# Declare a named constant for the package price
-PKG_PRICE = 99
-# Get the number of packages purchased
-qty = int(input('Get the number of packages purchased: '))
-price_before_discount = PKG_PRICE*qty
-if qty >= 10 and qty <= 19:
-    purchase = price_before_discount  - (price_before_discount* 0.10)
-elif qty >= 20 and qty <= 49:
-    purchase = price_before_discount - (price_before_discount * 0.20)
-elif qty >= 50 and qty <= 99:
-    purchase = price_before_discount - (price_before_discount * 0.30)
-else:
-    purchase = price_before_discount - (price_before_discount * 0.40)
+# Create named constants for all coin values
+PENNY = 1
+NICKEL = 5
+DIME = 10
+QUARTER = 25
 
-print('The total amount of your purhase after discount is: ',format(purchase,'.2f'))
+# Get the number of coins from user
+pennies =  int(input('How many pennies do you have? '))
+nickels =  int(input('How many nickels do you have? '))
+dimes =  int(input('How many dimes do you have? '))
+quarters =  int(input('How many quarters do you have? '))
+
+# Sum up all the coins
+cents = (pennies*PENNY) + (nickels*NICKEL) + (dimes*DIME) + (quarters*QUARTER)
+# 100 cents makes one dollar
+dollars = cents//100
+cents_rem = cents%100
+print("The coin machine will give you back $",dollars,".",cents_rem, sep='')

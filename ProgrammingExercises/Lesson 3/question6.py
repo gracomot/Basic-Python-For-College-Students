@@ -1,39 +1,30 @@
-# Assume hot dogs come in packages of 10, and hot dog buns come in packages of 8.
-# Write a program that calculates the number of packages of hot dogs and the number
-# of packages of hot dog buns needed for a cookout,with the minimum amount of leftovers.
-# The program should ask the user for the number of people attending the cookout
-# and the number of hot dogs each person will be given.
-# The program should display the following details:
-# The minimum number of packages of hot dogs required
-# The minimum number of packages of hot dog buns required
-# The number of hot dog that will be left over
-# The number of hot dog buns that will be left over
+# Question 6 (Book Sales)
+# A bookstore sells a chemistry textbook for $75 but has a discount for bulk
+# sales. Quantity discounts are given according to the quantity listed below;
+#	5-9 books		5% discount
+#	10-19 books:		10% discount
+# 	20-49 books:		20% discount
+#	50-99 books:		30% discount
+#	100 or more:		40% discount
+# Write a program that asks the user to enter the number of books purchased.
+# The program should display the discount amount and the total purchase
+# amount after the discount.
 
-# Create a named constant for the number of hot dogs and hot dog buns in a package
-HOT_DOG_PKG = 10
-HOT_DOG_BUNS = 8
-
-# Get the number of people attending the cookout
-number_of_people = int(input('How many people will be attending the cookout? '))
-ration_per_person = int(input('How many hot dogs will each person be given? '))
-
-# Compute the packages of hot dogs needed
-hot_dogs_needed = number_of_people * ration_per_person
-hot_dog_pkg_needed = hot_dogs_needed // HOT_DOG_PKG
-if hot_dogs_needed % HOT_DOG_PKG != 0:
-    hot_dog_pkg_needed = hot_dog_pkg_needed + 1
-
-# Compute the packages of hot dog buns needed
-hot_dog_bun_pkg_needed = hot_dogs_needed // HOT_DOG_BUNS
-if hot_dogs_needed % HOT_DOG_BUNS  != 0:
-    hot_dog_bun_pkg_needed = hot_dog_bun_pkg_needed + 1
-
-# Get the number of left over
-hot_dog_leftover = (hot_dog_pkg_needed * HOT_DOG_PKG) - hot_dogs_needed
-hot_dog_bun_leftover = (hot_dog_bun_pkg_needed * HOT_DOG_BUNS) - hot_dogs_needed
-    
-# Print the needed information
-print('The minimum number of packages of hot dogs required is ', hot_dog_pkg_needed) 
-print('The minimum number of packages of hot dogs buns required is ', hot_dog_bun_pkg_needed)
-print('The number of hot dog that will be left over is ',hot_dog_leftover)
-print('The number of hot dog buns that will be left over is ', hot_dog_bun_leftover)
+BOOK_PRICE = 75
+# Get the number of books
+books = int(input("Enter the number of books: "))
+purchase_amount = BOOK_PRICE * books
+if books >=5 and books <=9:
+    discount = purchase_amount * 0.05
+elif books >=10 and books <=19:
+    discount = purchase_amount * 0.10
+elif books >=20 and books <=49:
+    discount = purchase_amount * 0.20
+elif books >=50 and books <=99:
+    discount = purchase_amount * 0.30
+else:
+     discount = purchase_amount * 0.40
+purchase_after_discount = purchase_amount - discount
+print("The purchase amount before discount is $",format(purchase_amount,'.2f'), sep='')
+print("The discount amount is $",format(discount,'.2f'),sep='')
+print("The purchase amount after the discount is $",format(purchase_after_discount,'.2f'), sep='')

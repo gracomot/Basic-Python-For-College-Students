@@ -1,25 +1,36 @@
-# A program that asks the user for a number in the range of 1 through 7.
-# and displays the corresponding day of the week where 1 = Monday,
-# 2 =  Tuesday,  3 =  Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday,
-# and 7 = Sunday. The program should displays an error message if the user
-# enters a number that is outside the range 1 through 7.
+# Question 1 (Months in a year)
+# Write a program that asks the user for a number in the range 1 through 12.
+# The program should display the corresponding month of the year,
+# where 1 = January, 2 = February, 3 = March,........11 = November
+# and 12 = December. The program should display an error message if the user
+# enters a number that is outside the range 1 through 12.
 
-number =  int(input('Enter a number: '))
+number =  int(input('Enter a number between 1 and 12: '))
 # Get the day of week
 if (number == 1):
-    print('Monday')
+    print('January')
 elif (number == 2):
-    print('Tuesday')
+    print('February')
 elif(number == 3):
-    print('Wednesday')
+    print('March')
 elif(number == 4):
-    print('Thursday')
+    print('April')
 elif(number == 5):
-    print('Friday')
+    print('May')
 elif(number == 6):
-    print('Saturday')
+    print('June')
 elif(number == 7):
-    print('Sunday')
+    print('July')
+elif (number == 8):
+    print('August')
+elif(number == 9):
+    print('September')
+elif(number == 10):
+    print('October')
+elif(number == 11):
+    print('November')
+elif(number == 12):
+    print('December')
 else:
     print('Invalid number')
 

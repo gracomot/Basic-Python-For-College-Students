@@ -1,14 +1,17 @@
-# Write a program that asks the user to enter a month(in numeric form) a day, and a two-digit year.
-# The program should then determine whether the month times the day equals the year.
-# If so, it should display a message saying the date is magic. Otherwise,
-# it should display a message saying the date is not magic.
+# Question 5 (Income Group)
+# Write a program that asks the user to enter their annual income.
+# The program should display a message indicating whether the person
+# is a low income earner, middle income earner or high income earner.
+# Use the income bracket provided below;
+#	Income less than $40,100:		Low Income Earner
+#	Income between $40,100 and $120,400: 	Middle Income Earner
+#	Income greater than $120,400:		High Income Earner
 
-# Get the date parameters
-month = int(input('Enter the month in number form: '))
-day = int(input('Enter the day: '))
-year = int(input('Enter the two digit year: '))
-
-if month * day == year:
-    print('The date is magic')
+# Get the annual income 
+income = int(input('Enter your annual income: '))
+if income < 40100:
+    print("You are a low income earner")
+elif income >= 40100 and income <= 120400:
+    print("You are a middle income earner")
 else:
-    print('The date is not magic')
+    print("You are a high income earner")
