@@ -1,7 +1,7 @@
 # A program to project the tuition for a specified  number of years
 # given a 5% tuition increase every year
 
-# Get input from the use
+# Get input from the user
 
 tuition = float(input("Enter the current tuition: "))
 year =  int(input("Enter the number of years for tuition increase: "))

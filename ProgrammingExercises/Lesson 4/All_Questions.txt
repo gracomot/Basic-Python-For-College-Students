@@ -1,0 +1,47 @@
+Question 1 (Tuition Projection)
+It was announced at a University that the tuition for a full-time student will increase by 5% each year going forward. Write a program that allows users to enter the current tuition. Your program should display when the tuition will be equal or greater the double of the initial tuition. Your output should look like the one shown below;
+		In n years, the tuition would have doubled the initial tuition
+Note: The tuition does not have to exactly double the initial tuition.
+
+Question 2 (Multiplication Table)
+Modify the multiplication table program discussed in this lesson such that your program takes the number of rows and the number of colums as input. It them displays the multiplication table corresponding to the entered rows and columns.
+
+Question 3 (Draw a Triangle)
+Write a program that draws a right triangle with *. Your program should ask for the height of the triangle and it should display a right triangle with the specified height. 
+			*
+			**
+			***
+			****
+			*****
+			******
+			*******
+
+Question 4 (Inverted Triangle)
+Write a program that draws an inverted right triangle with * Your program should ask for the height of the triangle and it should display an inverted right triangle with the specified height. 
+			*******
+			******
+			*****
+			****
+			***
+			**
+			*
+
+Question 5 (Special Diet for weight loss)
+Your friend told you about a special diet for losing weight that you seem interested about. The special diet allows you to consistently lose some weight every month. Write a program that allows you to enter you current weight(in pounds) and the weight (in pounds) that will be lost every month. Your program should display what your new weight will be at the end of every month until you have lost at most half of your weight. Your program should also display a message that says "In n months of joining the weight loss program, you would have lost half of your weight.", where n is the months it takes to be at most half the size of your weight
+
+Question 6 (Prime Number)
+A prime number is a number that is divisible by itself and 1. Write a program that takes a number from a user and tells whether the number is prime or not.
+Note: 1 is not a prime number but 2 is a prime number 
+
+Question 7 (Decimal to Binary)
+Write a program that asks a user to enter a number and then prints the binary equivalent of the number.
+
+Question 8 (Average Age)
+Write a program that asks users for the ages of students in a class until a sentinel is entered. Your program should print the average age of the students in the class.
+
+Question 9 (Fibonacci Sequence)
+The Fibonacci sequence is one of the most famous formulas in mathematics. Each number in the sequence is the sum of the two numbers that precede it. So, the sequence goes: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so on. Write a program that asks for a number n greater than 2. Your program should print the fibonacci series up to the nth term. E.g if n is 8, your program will displat the fibonacci series up to the 8th term and the output should will be 0, 1, 1, 2, 3, 5, 8, 13. Your program should make use of input validation that keeps prompting the user to enter a number greater than 2 when input is not greate than 2 or is invalid
+
+Question 10 (List of Primes)
+Write a program that displays the first n prime numbers in the number system. Your input should be a positive integer. e.g if the input is 5, your program should display the first 5 prime numbers which are 2, 3, 5, 7, 11. fibonacci series up to the 8th term and the output should will be 0, 1, 1, 2, 3, 5, 8, 13. Your program should make use of input validation that keeps prompting the user to enter a positive integer when input is not greater than 2 or is invalid
+
