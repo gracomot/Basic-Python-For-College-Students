@@ -1,0 +1,45 @@
+Question 1 (Decimal to Hexadecimal)
+The hexadecimal system (shortly hex), uses the number 16 as its base (radix). As a base-16 numeral system, it uses 16 symbols. These are the 10 decimal digits (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) and the first six letters of the English alphabet (A, B, C, D, E, F). The letters are used because of the need to represent the values 10, 11, 12, 13, 14 and 15 each in one single symbol. 
+
+Write a program that asks a user to enter a positive number and then prints the hexadecimal equivalent of the number.
+
+Hint: Create a helper function that returns the hexadecimal representation when the remainder is 10, 11, 12, 13, 14, or 15 which are respectively A, B, C, D, E, or F. 
+
+Question 2 (Odd, Even and Prime Numbers)
+Write a program that accepts two positive integers (a lower bound and an upper bound). Your program should loop from the lower bound to the upper bound and display in a tabular fashion if the number between both bounds(inclusive)is odd, even or prime. 
+Note: Prime numbers need not show as odd number, they should only show as prime
+
+Hint: Create helper functions is_prime, is_even and is_odd. The functions should return boolean values respectively indicating if a number is prime, even or odd
+
+Question 3 (Random Odd Even and Prime Numbers)
+Write a program that generates a random number between 1 and 100 and prints a message specifying if the generated number is odd, even or prime. If a number is prime, your program should solely consider it as prime, not odd. A sample output is “19 is a prime number” assuming 19 is the generated number
+
+Question 4 (Combinatorics)
+Combinations are a way to calculate the total outcomes of an event where order of the outcomes does not matter. To calculate combinations, we will use the formula nCr = n! / r! * (n - r)!, where n represents the number of items, and r represents the number of items being chosen at a time.
+
+Write a program that asks for the value of n(number of items) and r(number of items of interest) and displays the value of nCr.
+
+Question 5 (Random Floating Number Ceil and Floor)
+Write a program that accepts two floating numbers (a lower bound and an upper
+bound). Your program should random generate a floating number between the two  ranges and display the floor and ceiling of the generated floating number. Format the generated floating point to 2decimal places
+
+Question 6 (Roots of Quadratic Equations)
+Given the quadratic equation ax^2 + bx + c
+Where, a, b, and c are coefficient and real numbers and also a ≠ 0. 
+Write a program that accepts the coefficients (a, b and c) of a quadratic
+equation and returns the roots of the equation. 
+
+Hint: Write a helper function that finds the discriminant (b^2 - 4ac) of the equation. Use the following hints from the discriminant to determine if the equation has valid roots;
+If the discriminant is > 0, the roots are real and different
+If the discriminant is = 0, the roots are real and the same
+If the discriminant is < 0, the roots are complex. 
+
+If the roots of the equation whose coefficient is entered are not real numbers,
+your program should display the message “The roots are complex”.
+
+Question 7: The Number System
+Develop a module called number_system that contains at least three functions: decimal_to_binary, decimal_to_octal and decimal_to_hexa that takes an integer parameter and respectively returns the parameter’s binary, octal and hexadecimal equivalent. You can create helper functions that can be called in the specified functions. Your module should have the capability to run as a standalone program and as a program that can be imported into another program. As a stand-alone program, your module should take a number as input and the base of conversion (2, 8, or 16). If the base of 2 is entered, your number should be converted to binary, if the base of 8 is entered, your number should be converted to octal, the base of 16 should convert your number to hexadecimal. Use input validation to ensure that the base is 2, 8 or 16.
+
+Question 8: (Import the Number System Module)
+Write a program that takes a number as input and the base of conversion (2, 8, or 16). If the base of 2 is entered, your number should be converted to binary, if the base of 8 is entered, your number should be converted to octal, the base of 16 should convert your number to hexadecimal. The conversion should be done by using the functions from the number_system module in question 7 . Use input validation to ensure that the base is 2, 8 or 16.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
